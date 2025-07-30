@@ -4,8 +4,8 @@
 </template>
 
 <script setup>
-import NavBar from "./components/NavBar.vue";
-import Hero from "./components/hero.vue";
+import NavBar from "src/components/NavBar.vue";
+import Hero from "src/components/Hero.vue";
 // export default {
 //   name: "app",
 //   components: {
