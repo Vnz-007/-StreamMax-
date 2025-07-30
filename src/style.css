@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   --System-UI: -apple-system, /* macOS & iOS */ BlinkMacSystemFont,
     /* Chrome on macOS */ "Segoe UI", /* Windows */ Roboto,
