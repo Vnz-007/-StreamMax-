@@ -72,7 +72,7 @@
         class="w-full flex flex-col sm:flex-row items-center justify-start space-y-3 sm:space-y-0 sm:space-x-4 gap-4"
       >
         <button
-          class="flex items-center justify-center text-white font-semibold bg-red-600 hover:bg-red-700 transition-colors rounded-lg space-x-2 gap-3 shadow-lg"
+          class="flex items-center justify-center text-white font-semibold cursor-pointer bg-red-600 hover:bg-red-700 transition-colors rounded-lg space-x-2 gap-3 shadow-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@
         </button>
 
         <button
-          class="flex items-center justify-center text-white font-semibold border border-gray-600 bg-gray-800/80 hover:bg-gray-700 transition-colors rounded-lg space-x-2 gap-3"
+          class="flex items-center justify-center text-white font-semibold cursor-pointer border border-gray-600 bg-gray-800/80 hover:bg-gray-700 transition-colors rounded-lg space-x-2 gap-3"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,9 @@
     </div>
   </section>
 </template>
+
 <script></script>
+
 <style scoped>
 #background__container {
   background: url("../assets/bg-home-desktop.jpg") no-repeat center/cover;

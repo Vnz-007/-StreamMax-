@@ -1,6 +1,6 @@
 <template>
   <header
-    class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md"
+    class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md z-10"
   >
     <div class="flex items-center justify-center h-16 gap-8">
       <div>
