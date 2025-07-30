@@ -1,5 +1,6 @@
 <template>
   <NavBar />
+  <Hero />
 </template>
 
 <script>
@@ -8,6 +9,7 @@ export default {
   name: "app",
   components: {
     NavBar,
+    Hero,
   },
 };
 </script>
