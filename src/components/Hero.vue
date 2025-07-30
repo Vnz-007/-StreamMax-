@@ -3,6 +3,7 @@
     class="relative w-full h-screen overflow-hidden flex items-center justify-center"
   >
     <div
+      id="background__container"
       class="absolute inset-0 h-screen bg-cover bg-no-repeat bg-center -z-10"
     ></div>
     <div
@@ -116,7 +117,11 @@
   </section>
 </template>
 <script></script>
-<style>
+<style scoped>
+#background__container {
+  background: url("../assets/bg-home-desktop.jpg") no-repeat center/cover;
+}
+
 #text__container {
   margin: 0 auto;
   padding: 64px 32px 0;
