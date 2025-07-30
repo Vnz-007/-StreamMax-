@@ -135,7 +135,7 @@
 
 #container-class {
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #class-container {
