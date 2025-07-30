@@ -171,10 +171,6 @@ html {
   font-family: var(--System-UI);
 }
 
-/* body {
-  background-color: #000;
-} */
-
 span {
   margin-left: -6px;
 }
