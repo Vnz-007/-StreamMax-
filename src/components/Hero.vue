@@ -3,12 +3,11 @@
     class="relative w-full h-screen overflow-hidden flex items-center justify-center"
   >
     <div
-      class="absolute inset-0 h-screen bg-cover bg-no-repeat bg-center"
-      style="background-image: url(src/assets/bg-home-desktop.jpg)"
+      class="absolute inset-0 h-screen bg-cover bg-no-repeat bg-center -z-10"
     ></div>
     <div
       id="text__container"
-      class="max-w-2xl flex items-center justify-center flex-col z-30"
+      class="max-w-2xl flex items-center justify-center flex-col"
     >
       <div id="class-container" class="w-full flex items-center space-x-2">
         <span
