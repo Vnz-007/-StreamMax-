@@ -3,7 +3,7 @@
     class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md z-10"
   >
     <div
-      class="max-w-7xl h-16 flex items-center justify-center md:justify-between lg:justify-center space-x-2 md:space-x-0 md:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
+      class="max-w-7xl h-16 flex items-center justify-between lg:justify-center space-x-2 sm:space-x-0 sm:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
     >
       <div>
         <a href="#" class="flex items-center justify-center space-x-2">
@@ -22,7 +22,7 @@
             <polygon points="5 3 19 12 5 21 5 3" />
           </svg>
 
-          <span class="text-white hidden md:flex md:text-2xl font-bold">
+          <span class="text-white hidden sm:flex text-2xl font-bold">
             Stream
             <span class="text-red-600 text-2xl font-bold back">Max</span>
           </span>
@@ -73,20 +73,20 @@
 
       <div
         id="input__container"
-        class="max-w-md hidden lg:flex items-center flex-1 mx-8"
+        class="max-w-sm hidden lg:flex items-center flex-1 mx-8"
       >
         <div class="w-full relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
+            width="16"
+            height="16"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search absolute left-3 top-1/4 transform text-gray-400"
+            class="lucide lucide-search md:w-5 md:h-5 absolute left-3 top-1/4 transform text-gray-400"
           >
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
@@ -100,9 +100,7 @@
         </div>
       </div>
 
-      <div
-        class="flex items-center justify-center space-x-5 lg:space-x-0 lg:gap-8"
-      >
+      <div class="flex items-center justify-center space-x-5">
         <a href="#">
           <button
             id="responsive__search-icon"
