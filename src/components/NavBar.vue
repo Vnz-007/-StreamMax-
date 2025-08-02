@@ -82,7 +82,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search absolute left-3 top-1/80 transform translate-y-1/2 text-gray-400"
+            class="lucide lucide-search absolute left-3 top-1/4 transform text-gray-400"
           >
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
