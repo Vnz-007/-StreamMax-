@@ -106,7 +106,7 @@
         <a href="#">
           <button
             id="responsive__search-icon"
-            class="p-2 cursor-pointer sm:flex lg:hidden"
+            class="p-2 cursor-pointer w-8 h-8 sm:flex lg:hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer">
+          <button class="p-2 cursor-pointer w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -148,7 +148,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer">
+          <button class="p-2 cursor-pointer w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -169,7 +169,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer">
+          <button class="p-2 cursor-pointer w-8 h-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -190,7 +190,7 @@
           </button>
         </a>
 
-        <button class="p-2 cursor-pointer sm:flex md:hidden">
+        <button class="p-2 cursor-pointer w-8 h-8 sm:flex md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
