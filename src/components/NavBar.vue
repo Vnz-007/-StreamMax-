@@ -3,7 +3,7 @@
     class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md z-10"
   >
     <div
-      class="max-w-7xl flex items-center justify-between lg:justify-center h-16 gap-8 mx-auto px-4 sm:px-6 lg:px-8"
+      class="max-w-7xl flex items-center justify-center md:justify-between lg:justify-center h-16 md:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
     >
       <div>
         <a href="#" class="flex items-center justify-center gap-2.5">
@@ -101,25 +101,24 @@
       </div>
 
       <div
-        class="flex items-center justify-center space-x-4 lg:space-x-0 lg:gap-8"
+        class="flex items-center justify-center space-x-5 lg:space-x-0 lg:gap-8"
       >
         <a href="#">
           <button
             id="responsive__search-icon"
-            class="p-2 cursor-pointer w-8 h-8 sm:flex lg:hidden"
+            class="p-2 cursor-pointer sm:flex lg:hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-search text-gray-300 hover:text-white transition-colors"
-              id="search-icon"
+              class="lucide lucide-search md:w-5 md:h-5 text-gray-300 hover:text-white transition-colors"
             >
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
@@ -128,7 +127,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer w-8 h-8">
+          <button class="flex items-center justify-center p-2 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -137,7 +136,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="lucide lucide-bell w-5 h-5 text-gray-300 hover:text-white transition-colors"
+              class="lucide lucide-bell md:w-5 md:h-5 text-gray-300 hover:text-white transition-colors"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
@@ -148,7 +147,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer w-8 h-8">
+          <button class="flex items-center justify-center p-2 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -159,7 +158,7 @@
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-heart w-5 h-5 text-gray-300 hover:text-white transition-colors"
+              class="lucide lucide-heart md:w-5 md:h-5 text-gray-300 hover:text-white transition-colors"
             >
               <path
                 d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
@@ -169,7 +168,7 @@
         </a>
 
         <a href="#">
-          <button class="p-2 cursor-pointer w-8 h-8">
+          <button class="flex items-center justify-center p-2 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -178,7 +177,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="lucide lucide-user w-5 h-5 text-gray-300 hover:text-white transition-colors"
+              class="lucide lucide-user md:w-5 md:h-5 text-gray-300 hover:text-white transition-colors"
             >
               <path
                 stroke-linecap="round"
@@ -190,7 +189,9 @@
           </button>
         </a>
 
-        <button class="p-2 cursor-pointer w-8 h-8 sm:flex md:hidden">
+        <button
+          class="flex items-center justify-center p-2 cursor-pointer sm:flex md:hidden"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -201,7 +202,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-menu w-5 h-5 text-gray-300 hover:text-white transition-colors"
+            class="lucide lucide-menu md:w-5 md:h-5 text-gray-300 hover:text-white transition-colors"
           >
             <line x1="4" x2="20" y1="12" y2="12"></line>
             <line x1="4" x2="20" y1="6" y2="6"></line>
@@ -230,7 +231,7 @@ input {
   padding: 8px 16px 8px 40px;
 }
 
-button {
+/* button {
   padding: 0.5rem;
-}
+} */
 </style>
