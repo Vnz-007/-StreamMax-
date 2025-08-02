@@ -101,7 +101,7 @@
       </div>
 
       <div
-        class="flex items-center justify-center sm:space-x-4 lg:space-x-0 lg:gap-8"
+        class="flex items-center justify-center space-x-4 lg:space-x-0 lg:gap-8"
       >
         <a href="#">
           <button
