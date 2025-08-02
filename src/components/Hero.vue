@@ -71,7 +71,7 @@
         class="w-full flex flex-col sm:flex-row items-center justify-start space-y-3 sm:space-y-0 sm:space-x-4 gap-4"
       >
         <button
-          class="flex items-center justify-center text-white font-semibold cursor-pointer bg-red-600 hover:bg-red-700 transition-colors rounded-lg space-x-2 shadow-lg py-3 px-8"
+          class="flex items-center justify-center text-white font-semibold cursor-pointer bg-red-600 hover:bg-red-700 transition-colors rounded-lg space-x-2 shadow-lg py-3 px-12 sm:px-8"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@
         </button>
 
         <button
-          class="bg-gray-800/80 hover:bg-gray-700 text-white gap-2 px-8 py-3 rounded-lg font-semibold flex items-center justify-center space-x-2 transition-colors border border-gray-600"
+          class="flex items-center justify-center bg-gray-800/80 hover:bg-gray-700 text-white gap-2 px-8 py-3 rounded-lg font-semibold space-x-2 transition-colors border border-gray-600"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
