@@ -3,7 +3,7 @@
     class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md z-10"
   >
     <div
-      class="max-w-7xl flex items-center sm:justify-between lg:justify-center h-16 gap-8 mx-auto px-4 sm:px-6 lg:px-8"
+      class="max-w-7xl flex items-center justify-between lg:justify-center h-16 gap-8 mx-auto px-4 sm:px-6 lg:px-8"
     >
       <div>
         <a href="#" class="flex items-center justify-center gap-2.5">
@@ -17,12 +17,12 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-play w-8 h-8 text-red-600 fill-current"
+            class="lucide lucide-play text-red-600 fill-current"
           >
             <polygon points="5 3 19 12 5 21 5 3" />
           </svg>
 
-          <span class="text-white text-2xl font-bold">
+          <span class="text-white hidden md:flex md:text-2xl font-bold">
             Stream
             <span class="text-red-600 text-2xl font-bold back">Max</span>
           </span>
@@ -30,7 +30,9 @@
       </div>
 
       <nav>
-        <ul class="sm:hidden lg:flex items-center justify-center gap-8">
+        <ul
+          class="hidden md:flex items-center justify-center space-x-10 lg:space-x-8"
+        >
           <li>
             <a
               href="#"
@@ -71,7 +73,7 @@
 
       <div
         id="input__container"
-        class="max-w-md sm:hidden lg:flex items-center flex-1 mx-8"
+        class="max-w-md hidden lg:flex items-center flex-1 mx-8"
       >
         <div class="w-full relative">
           <svg
@@ -188,7 +190,7 @@
           </button>
         </a>
 
-        <button class="p-2 cursor-pointer sm:flex lg:hidden">
+        <button class="p-2 cursor-pointer sm:flex md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -222,10 +224,6 @@
 
 html {
   font-family: var(--System-UI);
-}
-
-span {
-  margin-left: -6px;
 }
 
 input {
