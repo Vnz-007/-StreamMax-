@@ -3,7 +3,7 @@
     class="fixed w-full border-b border-gray-800 bg-black/90 backdrop-blur-md z-10"
   >
     <div
-      class="max-w-7xl flex items-center justify-center md:justify-between lg:justify-center h-16 md:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
+      class="max-w-7xl h-16 flex items-center justify-center md:justify-between lg:justify-center space-x-2 md:space-x-0 md:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
     >
       <div>
         <a href="#" class="flex items-center justify-center space-x-2">
