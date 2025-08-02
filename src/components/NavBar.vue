@@ -6,7 +6,7 @@
       class="max-w-7xl flex items-center justify-center md:justify-between lg:justify-center h-16 md:gap-8 mx-auto px-8 sm:px-6 lg:px-8"
     >
       <div>
-        <a href="#" class="flex items-center justify-center gap-2.5">
+        <a href="#" class="flex items-center justify-center space-x-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -194,8 +194,8 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -226,12 +226,4 @@
 html {
   font-family: var(--System-UI);
 }
-
-input {
-  padding: 8px 16px 8px 40px;
-}
-
-/* button {
-  padding: 0.5rem;
-} */
 </style>
