@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <div class="flex items-center justify-center space-x-3 lg:space-x-8">
+      <div class="flex items-center justify-center space-x-5 lg:space-x-8">
         <a href="#">
           <button
             id="responsive__search-icon"
