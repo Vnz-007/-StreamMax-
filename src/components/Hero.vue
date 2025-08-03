@@ -115,14 +115,13 @@
     </div>
 
     <div
-      class="hidden sm:absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
+      class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
     >
       <div
         class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center"
       >
         <div
-          id="mouse-mg"
-          class="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"
+          class="w-1 h-3 hidden sm:relative bg-white/60 rounded-full mt-2 animate-pulse"
         ></div>
       </div>
     </div>
