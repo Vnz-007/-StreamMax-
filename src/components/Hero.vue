@@ -115,7 +115,7 @@
     </div>
 
     <div
-      class="absolute bottom-8 mt-4 sm:mt-0 left-1/2 transform -translate-x-1/2 animate-bounce"
+      class="absolute sm:hidden bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
     >
       <div
         class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center"
