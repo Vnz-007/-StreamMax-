@@ -7,7 +7,7 @@
 <script setup>
 import NavBar from "./components/NavBar.vue";
 import Hero from "./components/Hero.vue";
-import Footer from "./components/footer.vue";
+import Footer from "./components/Footer.vue";
 // export default {
 //   name: "app",
 //   components: {
